@@ -1,0 +1,36 @@
+{
+  "name": "chai-contains",
+  "version": "0.0.1",
+  "description": "a simple chai plugin which helps to assert subset of values on objects/arrays",
+  "main": "contains.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint asserttype.js test && ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshSPatil/chai-contains.git"
+  },
+  "keywords": [
+    "chai",
+    "chai-plugin",
+    "object",
+    "objects",
+    "array",
+    "arrays"
+  ],
+  "author": "Ganesh Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaneshSPatil/chai-contains/issues"
+  },
+  "homepage": "https://github.com/GaneshSPatil/chai-contains#README.md",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/GaneshSPatil/chai-contains#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.10.2",
+    "mocha": "^3.1.2"
+  }
+}
